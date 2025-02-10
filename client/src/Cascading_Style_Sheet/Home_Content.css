@@ -1,0 +1,25 @@
+[data-home-content]{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+[data-home-greetings]{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+[data-background-logo]{
+    position: relative;
+    z-index: 2;
+    filter: opacity(30%) grayscale(1);
+
+}
+[data-background-name]{
+    position: absolute;
+    z-index: 5;
+}
