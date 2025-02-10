@@ -1,10 +1,11 @@
-[data-home-content]{
+[data-home-content] {
     display: flex;
     flex-flow: column;
     justify-content: center;
 
 }
-[data-home-greetings]{
+
+[data-home-greetings] {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -13,13 +14,29 @@
     position: absolute;
     z-index: 10;
 }
-[data-background-logo]{
+
+[data-background-logo] {
     position: relative;
     z-index: 2;
     filter: opacity(30%) grayscale(1);
 
 }
-[data-background-name]{
+
+[data-background-name] {
     position: absolute;
     z-index: 5;
+}
+
+[data-home-tag-line] {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 10vh;
+    line-height:9vh;
+}
+[data-home-tag-line-thin]{
+    font-weight: 100;
+}
+[data-home-tag-line-thick]{
+    font-weight: 400;
 }

@@ -6,7 +6,7 @@
     width: 100%;
     border-radius: 0;
     box-shadow: none;
-    border: 0;
+    /* border: 0; */
 }
 [data-home-navbar-menu]{
     display: flex;
