@@ -40,3 +40,39 @@
 [data-home-tag-line-thick]{
     font-weight: 400;
 }
+[data-best-card]{
+    background-color: whitesmoke;
+}
+[data-best-card-tag]{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+[data-tag-title]{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9vh;
+}
+[data-card-provider]{
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30vh;
+    line-height: 35vh;
+}
+[data-card-provider-small]{
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 300;
+    font-size: 15vh;
+}
+[data-best-card-service]{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    margin: 0 10vh;
+}
