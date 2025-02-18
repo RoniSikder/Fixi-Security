@@ -3,6 +3,7 @@ import '../Cascading_Style_Sheet/Home_Content.css'
 import { Hash } from 'lucide-react';
 import home_prop from '../Media_Files/Home_props.png'
 import home_prop2 from '../Media_Files/Home_props2.png'
+import home_prop3 from '../Media_Files/Home_Props3.png'
 
 const Home_Page = () => {
   return (
@@ -18,14 +19,22 @@ const Home_Page = () => {
         </div>
         <div className='flex justify-evenly my-[4vh]'>
           <div data-home-tag-line>
-            <h1 data-home-tag-line-bold>We think like</h1>
-            <h1><span data-home-tag-line-thick>Hackers</span><span data-home-tag-line-thin>, so you</span></h1>
-            <h1 data-home-tag-line-thin>Don't have to</h1>
+            <div className='mb-[25vh]'>
+              <h1 data-home-tag-line-bold>We think like</h1>
+              <h1><span data-home-tag-line-thick>Hackers</span><span data-home-tag-line-thin>, so you</span></h1>
+              <h1 data-home-tag-line-thin>Don't have to</h1>
+            </div>
+            <div className='mb-[7vh]' data-home-tag-line-props>
+              <img src={home_prop3} alt="" srcset="" className='' />
+              <div data-explore-circle>
+                Explore More
+              </div>
+            </div>
           </div>
           <div>
-            <img src={home_prop} alt="" srcset="" className='h-[150px] w-[150px]'/>
+            <img src={home_prop} alt="" srcset="" className='h-[150px] w-[150px]' />
           </div>
-          <div data-best-card className='w-[40vw]'> 
+          <div data-best-card className='w-[40vw]'>
             <div className='flex mx-[10vh] align-center'>
               <div><h1 data-card-provider className=''>100</h1></div>
               <div data-card-provider-small >+</div>

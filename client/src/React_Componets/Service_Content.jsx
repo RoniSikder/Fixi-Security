@@ -53,6 +53,12 @@ export const Service_Content = [
         id:11,
         title:'Infrastructure Security Assessment',
         des:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate quia esse voluptas dignissimos ipsam iste excepturi architecto voluptate harum.'
+    },
+    {
+        id:12,
+        title:'Governance Risk and Compliance iso270001',
+        des:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate quia esse voluptas dignissimos ipsam iste excepturi architecto voluptate harum.'
     }
+
     
 ]

@@ -33,6 +33,7 @@
     font-style: normal;
     font-size: 10vh;
     line-height:9vh;
+    height: max-content;
 }
 [data-home-tag-line-thin]{
     font-weight: 100;
@@ -75,4 +76,7 @@
     font-weight: 400;
     font-size: 5vh;
     margin: 0 10vh;
+}
+[data-explore-circle]{
+
 }
